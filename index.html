@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Wochenende — conversație · Germană A2</title>
+    <meta property="og:title" content="Mein Wochenende (Conversație A2)">
+    <meta property="og:description" content="Învață să povestești trecutul în germană: Perfekt activ (haben/sein + Partizip II) + dialog animat Andreea↔Florian. Nivel A2.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#top" class="navbar-logo">ʚଓ Claudia Toth</a>
+        <ul class="navbar-menu">
+            <li><a href="#teorie" onclick="openSection(0)">Teorie</a></li>
+            <li><a href="#dialog" onclick="openSection(1)">🎬 Dialog</a></li>
+            <li><a href="#ex1" onclick="openSection(2)">Ex. 1</a></li>
+            <li><a href="#ex2" onclick="openSection(3)">Ex. 2</a></li>
+            <li><a href="#ex3" onclick="openSection(4)">Ex. 3</a></li>
+            <li><a href="#ex4" onclick="openSection(5)">Ex. 4</a></li>
+            <li><a href="#ex5" onclick="openSection(6)">🗣️ Vorbire</a></li>
+            <li><a href="#flashcards" onclick="openSection(7)">📇 Flashcards</a></li>
+            <li><a href="#verbs" onclick="openSection(8)">🔁 Verbe</a></li>
+            <li><a href="#final-test" onclick="openSection(9)">🎯 Test Final</a></li>
+            <li><a href="conversatie-a2-mein-wochenende.pdf" download>📄 PDF</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" id="top">
+        <div class="header">
+            <h1>ʚଓ Mein Wochenende</h1>
+            <p class="subtitle">Povestește trecutul în germană (Perfekt) — conversație · Nivel A2</p>
+            <p>Claudia Toth · Conversație A2</p>
+        </div>
+
+        <div class="content">
+            <div class="section" id="teorie">
+                <div class="section-header" onclick="toggleMainSection(0)"><h3>ʚଓ TEORIE</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-0"><div id="theory-container"></div></div>
+            </div>
+
+            <div class="section" id="dialog">
+                <div class="section-header" onclick="toggleMainSection(1)"><h3>ʚଓ 🎬 Dialog animat: Andreea & Florian</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-1">
+                    <p style="margin-bottom:14px;"><em>Apasă ▶️ Pornește. Bulele apar pe rând, personajul activ „pulsează". Ascultă cum Andreea și Florian își povestesc weekendul — vei auzi mult Perfekt: „habe… gespielt", „bin… gegangen". Reascultă orice replică cu 🔁.</em></p>
+                    <div id="dialog1-container"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex1">
+                <div class="section-header" onclick="toggleMainSection(2)"><h3>ʚଓ Übung 1: Infinitiv → Partizip II</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-2">
+                    <div id="ex1-container"></div>
+                    <div class="btn-container"><button class="btn btn-check" onclick="checkExercise(1)">✓ Verifica</button><button class="btn btn-reset" onclick="resetExercise(1)">↻ Reseteaza</button></div>
+                    <div class="score" id="score-1"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex2">
+                <div class="section-header" onclick="toggleMainSection(3)"><h3>ʚଓ Übung 2: haben sau sein?</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-3">
+                    <div id="ex2-container"></div>
+                    <div class="btn-container"><button class="btn btn-check" onclick="checkExercise(2)">✓ Verifica</button><button class="btn btn-reset" onclick="resetExercise(2)">↻ Reseteaza</button></div>
+                    <div class="score" id="score-2"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex3">
+                <div class="section-header" onclick="toggleMainSection(4)"><h3>ʚଓ Übung 3: Partizip II corect</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-4">
+                    <div id="ex3-container"></div>
+                    <div class="btn-container"><button class="btn btn-check" onclick="checkExercise(3)">✓ Verifica</button><button class="btn btn-reset" onclick="resetExercise(3)">↻ Reseteaza</button></div>
+                    <div class="score" id="score-3"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex4">
+                <div class="section-header" onclick="toggleMainSection(5)"><h3>ʚଓ Übung 4: Povestește weekendul (Perfekt)</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-5">
+                    <div id="ex4-container"></div>
+                    <div class="btn-container"><button class="btn btn-check" onclick="checkExercise(4)">✓ Verifica</button><button class="btn btn-reset" onclick="resetExercise(4)">↻ Reseteaza</button></div>
+                    <div class="score" id="score-4"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex5">
+                <div class="section-header" onclick="toggleMainSection(6)"><h3>ʚଓ Übung 5: 🗣️ Vorbire — povestește-ți weekendul</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-6">
+                    <div class="theory-box">
+                        <h4>🗣️ Erzähl von deinem Wochenende! / Povestește-ți weekendul!</h4>
+                        <p>Acesta e cel mai important exercițiu din lecție — și nu se notează. Imaginează-ți că e luni și <strong>povestește cu voce tare</strong> ce ai făcut în weekend: folosește 3-4 propoziții la <strong>Perfekt</strong> (ce ai făcut cu „habe", unde ai mers cu „bin"). Repetă de 2-3 ori, până curge natural.</p>
+                    </div>
+
+                    <div class="theory-box" style="background:#eef2ff;border-color:#6366f1;">
+                        <h4>💡 Tippuri — începuturi de propoziție</h4>
+                        <ul style="margin-left:20px;">
+                            <li><strong>Am Samstag habe ich …</strong> <em>(gemacht / gespielt / gekocht)</em></li>
+                            <li><strong>Am Sonntag bin ich …</strong> <em>(gegangen / gefahren)</em></li>
+                            <li><strong>Und dann habe ich …</strong></li>
+                            <li><strong>Es war …</strong> <em>(schön / toll / langweilig)</em></li>
+                        </ul>
+                    </div>
+
+                    <details class="transcript-details" style="margin-top:16px;">
+                        <summary>🎧 Model de răspuns (ascultă & citește)</summary>
+                        <div style="padding:14px 4px;">
+                            <div class="lesson-audio">
+                                <div class="audio-player">
+                                    <button class="audio-btn" onclick="toggleAudio(event, 'audio-modell')" id="btn-audio-modell">▶</button>
+                                    <audio id="audio-modell" preload="none"><source src="audio/06-modell.mp3" type="audio/mpeg"></audio>
+                                </div>
+                                <span class="lesson-audio-label">🔊 Ascultă modelul Andreei</span>
+                            </div>
+                            <div class="example-box">
+                                <div class="de">Mein Wochenende war schön. Am Samstag bin ich früh aufgestanden. Ich habe eingekauft und zu Hause gekocht. Am Nachmittag habe ich Freunde getroffen. Am Sonntag bin ich ins Kino gegangen und habe einen Film gesehen. Es war ein tolles Wochenende!</div>
+                                <div class="ro">Weekendul meu a fost frumos. Sâmbătă m-am trezit devreme. Am făcut cumpărături și am gătit acasă. După-amiaza m-am întâlnit cu prieteni. Duminică m-am dus la cinema și am văzut un film. A fost un weekend grozav!</div>
+                            </div>
+                            <div class="andreea-note" style="margin-top:14px;">
+                                <img class="andreea-note-avatar" src="images/andreea.png" alt="Andreea">
+                                <div class="andreea-note-content">
+                                    <div class="speaker">Andreea</div>
+                                    <div class="text">Nu trebuie să ai exact weekendul meu — povestește ce ai făcut TU (sau inventează). Dacă reușești 3-4 propoziții la Perfekt, cu auxiliarul corect (habe/bin), ai reușit. Super gemacht! 💚</div>
+                                </div>
+                            </div>
+                        </div>
+                    </details>
+                </div>
+            </div>
+
+            <div class="section" id="flashcards">
+                <div class="section-header" onclick="toggleMainSection(7)"><h3>ʚଓ Flashcards - Învățare prin repetiție</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-7"><div id="flashcards-container"></div></div>
+            </div>
+
+            <div class="section" id="verbs">
+                <div class="section-header" onclick="toggleMainSection(8)"><h3>ʚଓ 🔁 Verb-Konjugation - Verbe esențiale</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-8"><div id="verbs-container"></div></div>
+            </div>
+
+            <div class="section" id="final-test">
+                <div class="section-header" onclick="toggleMainSection(9)"><h3>ʚଓ 🎯 Test Final - Testează-ți cunoștințele!</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-9"><div id="final-test-container"></div></div>
+            </div>
+
+            <div class="theory-box" style="text-align: center; margin-top: 40px;">
+                <p style="font-size: 1.3rem; font-weight: bold; color: #065f46;">🎉 Gut gemacht!</p>
+                <p>Acum poți povesti trecutul în germană cu Perfekt: ce ai făcut (habe + Partizip II) și unde ai mers (bin + Partizip II). E baza pentru tot nivelul A2 — orice poveste despre ce „a fost" pornește de aici. Exersează cu voce tare, povestind fiecare weekend. Super gemacht! 🗓️💚</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="theory.js"></script>
+    <script src="dialogs.js?v=1"></script>
+    <script src="exercises.js"></script>
+    <script src="flashcards.js"></script>
+    <script src="verbs.js"></script>
+    <script src="final-test.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
