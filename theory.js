@@ -40,7 +40,7 @@ const theoryHTML = `
                 <p style="margin-top:6px;">🇷🇴 Povestește despre weekendul tău la Perfekt: ce ai făcut și unde ai mers.</p>
             </div>
 
-            <div class="theory-box" style="background:#fef3c7;border-color:#f59e0b;">
+            <div class="theory-box" style="background:#F5F0E8;border-color:#D4A574;">
                 <h4>✍️ Notă despre diacritice</h4>
                 <p>Verificarea e blândă: poți scrie Umlaut-urile corect (<em>aufgeräumt</em>) sau cu varianta de înlocuire (<em>aufgeraeumt</em>). Ambele sunt acceptate peste tot în lecție.</p>
             </div>

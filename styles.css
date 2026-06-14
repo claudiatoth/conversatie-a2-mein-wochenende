@@ -11,12 +11,12 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    background: #FAF6EE;
     line-height: 1.6;
     padding: 0;
     padding-top: 80px;
     min-height: 100vh;
-    color: #374151;
+    color: #1F1B16;
 }
 
 /* ============================================
@@ -75,7 +75,7 @@ body {
 .container {
     max-width: 1100px;
     margin: 20px auto;
-    background: white;
+    background: #FBF7EF;
     border-radius: 20px;
     box-shadow: 0 20px 60px rgba(0,0,0,0.3);
     overflow: hidden;
@@ -150,7 +150,7 @@ body {
 .section-content {
     display: none;
     padding: 25px;
-    background: #f0fdf4;
+    background: #FBF7EF;
 }
 
 .section-content.active {
@@ -236,7 +236,7 @@ body {
     gap: 12px;
     margin-bottom: 18px;
     padding: 10px 14px;
-    background: #f0fdf4;
+    background: #FBF7EF;
     border-left: 4px solid #10b981;
     border-radius: 6px;
 }
@@ -313,7 +313,7 @@ body {
 }
 
 .example-box .ro {
-    color: #6b7280;
+    color: #5A5147;
     font-size: 0.95rem;
     margin-top: 4px;
 }
@@ -347,7 +347,7 @@ body {
 }
 
 .theory-table tr:nth-child(even) {
-    background: #f0fdf4;
+    background: #FBF7EF;
 }
 
 .theory-table .verb {
@@ -361,7 +361,7 @@ body {
 }
 
 .theory-table .ro-text {
-    color: #6b7280;
+    color: #5A5147;
     font-style: italic;
     font-size: 0.95rem;
 }
@@ -370,12 +370,12 @@ body {
    EXERCIȚII
    ============================================ */
 .exercise-instruction {
-    background: #fffbeb;
-    border-left: 4px solid #f59e0b;
+    background: #F5F0E8;
+    border-left: 4px solid #D4A574;
     padding: 12px 18px;
     margin-bottom: 18px;
     border-radius: 8px;
-    color: #78350f;
+    color: #5A5147;
 }
 
 .exercise-item {
@@ -413,7 +413,7 @@ body {
 }
 
 .input-group label {
-    color: #374151;
+    color: #1F1B16;
     font-size: 1rem;
     line-height: 1.5;
 }
@@ -463,7 +463,7 @@ body {
 }
 
 .mc-option:hover {
-    background: #f0fdf4;
+    background: #FBF7EF;
 }
 
 .mc-option input[type="radio"] {
@@ -545,12 +545,12 @@ body {
 }
 
 .btn-reset {
-    background: #6b7280;
+    background: #5A5147;
     color: white;
 }
 
 .btn-reset:hover {
-    background: #4b5563;
+    background: #433d35;
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(107, 114, 128, 0.4);
 }
@@ -627,7 +627,7 @@ body {
 
 .flashcard .ro {
     font-size: 1.2rem;
-    color: #6b7280;
+    color: #5A5147;
     font-style: italic;
     display: none;
 }
@@ -642,7 +642,7 @@ body {
     bottom: 12px;
     left: 0;
     right: 0;
-    color: #9ca3af;
+    color: #8a8175;
     font-size: 0.85rem;
 }
 
@@ -776,8 +776,8 @@ body {
         -webkit-overflow-scrolling: touch;
         max-width: 100%;
         scrollbar-width: thin;
-        scrollbar-color: #f59e0b #fef3c7;
-        background-image: linear-gradient(to right, transparent calc(100% - 32px), rgba(245, 158, 11, 0.28) 100%);
+        scrollbar-color: #D4A574 #F5F0E8;
+        background-image: linear-gradient(to right, transparent calc(100% - 32px), rgba(212, 165, 116, 0.28) 100%);
         background-attachment: local;
         background-repeat: no-repeat;
     }
@@ -788,12 +788,12 @@ body {
     }
     .theory-table::-webkit-scrollbar-track,
     .grammar-table::-webkit-scrollbar-track {
-        background: #fef3c7;
+        background: #F5F0E8;
         border-radius: 3px;
     }
     .theory-table::-webkit-scrollbar-thumb,
     .grammar-table::-webkit-scrollbar-thumb {
-        background: #f59e0b;
+        background: #D4A574;
         border-radius: 3px;
     }
 
@@ -801,15 +801,15 @@ body {
     .grammar-table::before {
         content: '👈 Glisează lateral pentru toate coloanele 👉';
         display: block;
-        background: #fef3c7;
-        color: #92400e;
+        background: #F5F0E8;
+        color: #5A5147;
         padding: 6px 10px;
         font-size: 0.72rem;
         text-align: center;
         font-style: italic;
         border-radius: 6px 6px 0 0;
         white-space: nowrap;
-        border-bottom: 1px solid #f59e0b;
+        border-bottom: 1px solid #D4A574;
         position: sticky;
         left: 0;
     }
@@ -828,14 +828,14 @@ body {
    ============================================ */
 .ro-translation {
     display: inline-block;
-    color: #6b7280;
+    color: #5A5147;
     font-style: italic;
     font-size: 0.88rem;
     font-weight: normal;
     line-height: 1.4;
     margin-top: 4px;
     padding-left: 8px;
-    border-left: 2px solid #fcd34d;
+    border-left: 2px solid #D4A574;
 }
 
 /* ============================================
@@ -858,7 +858,7 @@ body {
 }
 
 .test-intro p {
-    color: #374151;
+    color: #1F1B16;
     margin-bottom: 15px;
 }
 
@@ -872,7 +872,7 @@ body {
 
 .test-info-list li {
     padding: 8px 0;
-    color: #374151;
+    color: #1F1B16;
 }
 
 .btn-large {
@@ -921,7 +921,7 @@ body {
 
 /* Întrebarea curentă */
 .test-question {
-    background: #f0fdf4;
+    background: #FBF7EF;
     padding: 25px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -937,35 +937,35 @@ body {
 
 .test-question-content {
     font-size: 1.15rem;
-    color: #374151;
+    color: #1F1B16;
     line-height: 1.8;
     margin-bottom: 12px;
 }
 
 .test-blank {
-    background: #fef3c7;
+    background: #F5F0E8;
     padding: 4px 16px;
     border-radius: 6px;
-    border: 2px dashed #f59e0b;
-    color: #78350f;
+    border: 2px dashed #D4A574;
+    color: #5A5147;
     font-weight: bold;
     margin-right: 8px;
 }
 
 .test-translation {
     display: block;
-    color: #6b7280;
+    color: #5A5147;
     font-style: italic;
     margin: 10px 0;
     font-size: 0.95rem;
 }
 
 .test-ro-text {
-    background: #fff7ed;
+    background: #F5F0E8;
     padding: 15px;
     border-radius: 8px;
-    border-left: 4px solid #f59e0b;
-    color: #78350f;
+    border-left: 4px solid #D4A574;
+    color: #5A5147;
     font-weight: 500;
 }
 
@@ -1002,7 +1002,7 @@ body {
 
 .test-mc .mc-option:hover {
     border-color: #10b981;
-    background: #f0fdf4;
+    background: #FBF7EF;
 }
 
 /* Controale wizard */
@@ -1015,12 +1015,12 @@ body {
 }
 
 .btn-secondary {
-    background: #6b7280;
+    background: #5A5147;
     color: white;
 }
 
 .btn-secondary:hover {
-    background: #4b5563;
+    background: #433d35;
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(107, 114, 128, 0.4);
 }
@@ -1034,13 +1034,13 @@ body {
 
 /* Buton ÎNAPOI LA TEORIE */
 .btn-back {
-    background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+    background: linear-gradient(135deg, #5A5147 0%, #433d35 100%);
     color: white;
 }
 
 .btn-back:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(99, 102, 241, 0.4);
+    box-shadow: 0 8px 20px rgba(90, 81, 71, 0.4);
 }
 
 .test-back-top {
@@ -1117,7 +1117,7 @@ body {
 
 /* Stats categorii */
 .test-stats {
-    background: #f0fdf4;
+    background: #FBF7EF;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -1137,7 +1137,7 @@ body {
 .test-stats li {
     padding: 8px 0;
     border-bottom: 1px solid #d1fae5;
-    color: #374151;
+    color: #1F1B16;
 }
 
 .test-stats li:last-child {
@@ -1244,7 +1244,7 @@ body {
 
 .dm-tile {
     padding: 10px 14px;
-    background: #f0fdf4;
+    background: #FBF7EF;
     border: 2px solid #d1fae5;
     border-radius: 8px;
     cursor: pointer;
@@ -1261,9 +1261,9 @@ body {
 }
 
 .dm-tile.dm-selected {
-    background: #fef3c7;
-    border-color: #f59e0b;
-    color: #78350f;
+    background: #F5F0E8;
+    border-color: #D4A574;
+    color: #5A5147;
 }
 
 .dm-tile.dm-correct {
@@ -1285,11 +1285,11 @@ body {
     text-align: center;
     margin-top: 12px;
     padding: 10px;
-    background: #fffbeb;
+    background: #F5F0E8;
     border-radius: 8px;
-    color: #78350f;
+    color: #5A5147;
     font-weight: 600;
-    border-left: 4px solid #f59e0b;
+    border-left: 4px solid #D4A574;
 }
 
 @keyframes shake {
@@ -1315,7 +1315,7 @@ body {
 
 .sort-tile {
     padding: 8px 14px;
-    background: #f0fdf4;
+    background: #FBF7EF;
     border: 2px solid #d1fae5;
     border-radius: 8px;
     cursor: pointer;
@@ -1331,9 +1331,9 @@ body {
 }
 
 .sort-tile.sort-selected {
-    background: #fef3c7;
-    border-color: #f59e0b;
-    color: #78350f;
+    background: #F5F0E8;
+    border-color: #D4A574;
+    color: #5A5147;
 }
 
 .sort-tile.sort-wrong {
@@ -1369,7 +1369,7 @@ body {
 
 .sort-col:hover {
     border-color: #10b981;
-    background: #f0fdf4;
+    background: #FBF7EF;
 }
 
 .sort-col-title {
@@ -1406,8 +1406,8 @@ body {
 .satzbau-answer {
     min-height: 50px;
     padding: 12px;
-    background: #fffbeb;
-    border: 2px dashed #f59e0b;
+    background: #F5F0E8;
+    border: 2px dashed #D4A574;
     border-radius: 8px;
     margin: 8px 0;
     display: flex;
@@ -1417,7 +1417,7 @@ body {
 }
 
 .satzbau-answer-placeholder {
-    color: #9ca3af;
+    color: #8a8175;
     font-style: italic;
     font-size: 0.95rem;
 }
@@ -1427,7 +1427,7 @@ body {
     flex-wrap: wrap;
     gap: 8px;
     padding: 10px;
-    background: #f0fdf4;
+    background: #FBF7EF;
     border-radius: 8px;
     margin-top: 8px;
 }
@@ -1510,18 +1510,18 @@ body {
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.2s;
-    color: #374151;
+    color: #1F1B16;
 }
 
 .mistake-opt:hover {
     border-color: #10b981;
-    background: #f0fdf4;
+    background: #FBF7EF;
 }
 
 .mistake-opt.mistake-picked {
-    border-color: #f59e0b;
-    background: #fef3c7;
-    color: #78350f;
+    border-color: #D4A574;
+    background: #F5F0E8;
+    color: #5A5147;
     font-weight: 600;
 }
 
@@ -1560,7 +1560,7 @@ body {
     size: A4;
     margin: 18mm 14mm 22mm 14mm;
     @bottom-left { content: "ʚଓ © 2026 Claudia Toth"; font-size: 9pt; color: #065f46; }
-    @bottom-right { content: "pag. " counter(page) " / " counter(pages); font-size: 9pt; color: #6b7280; }
+    @bottom-right { content: "pag. " counter(page) " / " counter(pages); font-size: 9pt; color: #5A5147; }
 }
 
 @media print {
@@ -1628,7 +1628,7 @@ body {
 }
 .cast-card .detail {
     font-size: 0.65rem;
-    color: #6b7280;
+    color: #5A5147;
     line-height: 1.2;
     margin-top: 2px;
 }
@@ -1640,8 +1640,8 @@ body {
 /* Avatar 44×56px (NU dimensiune nativă!) — adăugat în template 28 mai 2026 */
 /* după bug raportat de Claudia pe A2 L2 (andreeas-diplom) */
 .andreea-note {
-    background: #fffbeb;
-    border-left: 4px solid #f59e0b;
+    background: #F5F0E8;
+    border-left: 4px solid #D4A574;
     border-radius: 0 8px 8px 0;
     padding: 12px 16px;
     margin: 14px 0;
@@ -1660,7 +1660,7 @@ body {
 }
 .andreea-note-content .speaker {
     font-weight: 700;
-    color: #92400e;
+    color: #5A5147;
     font-size: 0.85rem;
     margin-bottom: 4px;
 }
@@ -1668,7 +1668,7 @@ body {
     content: "💚 ";
 }
 .andreea-note-content .text {
-    color: #78350f;
+    color: #5A5147;
     font-size: 0.92rem;
     font-style: italic;
     line-height: 1.55;
@@ -1703,7 +1703,7 @@ body {
     border-bottom: none;
 }
 .grammar-table tr:nth-child(even) {
-    background: #f0fdf4;
+    background: #FBF7EF;
 }
 
 /* ===== REGULA 14 PATCH â€” touch scroll mobile (fix raportat 31 mai 2026) ===== */
@@ -1729,8 +1729,8 @@ body {
    DIALOG ANIMAT (motor Pflege) — Andreea ↔ Annette
    ============================================ */
 .animated-dialog { background: white; border-radius: 16px; padding: 20px; margin: 16px 0; box-shadow: 0 4px 18px rgba(6, 95, 70, 0.1); }
-.dialog-context { background: #f0fdf4; border-left: 4px solid #10b981; padding: 10px 14px; border-radius: 6px; color: #065f46; font-size: 0.9rem; margin-bottom: 18px; }
-.stage-container { background: linear-gradient(135deg, #f0fdf4 0%, #ecfdf5 100%); border-radius: 12px; padding: 24px 16px; margin: 14px 0; }
+.dialog-context { background: #FBF7EF; border-left: 4px solid #10b981; padding: 10px 14px; border-radius: 6px; color: #065f46; font-size: 0.9rem; margin-bottom: 18px; }
+.stage-container { background: linear-gradient(135deg, #FBF7EF 0%, #ecfdf5 100%); border-radius: 12px; padding: 24px 16px; margin: 14px 0; }
 .stage { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: start; }
 .character-wrapper { display: flex; flex-direction: column; align-items: center; position: relative; transition: all 0.3s; opacity: 0.55; }
 .character-wrapper.speaking { opacity: 1; transform: scale(1.05); }
@@ -1746,7 +1746,7 @@ body {
 .speech-bubble .bubble-de, .speech-bubble .bubble-ro { transition: opacity 0.18s ease; }
 .speech-bubble.text-fading .bubble-de, .speech-bubble.text-fading .bubble-ro { opacity: 0.15; }
 .bubble-de { color: #065f46; font-weight: 600; font-size: 0.95rem; margin-bottom: 6px; line-height: 1.4; }
-.bubble-ro { color: #6b7280; font-style: italic; font-size: 0.85rem; line-height: 1.4; }
+.bubble-ro { color: #5A5147; font-style: italic; font-size: 0.85rem; line-height: 1.4; }
 .dialog-controls { display: flex; justify-content: center; gap: 10px; margin: 16px 0 10px; flex-wrap: wrap; }
 .btn-dialog { background: linear-gradient(135deg, #10b981 0%, #059669 100%); color: white; border: none; padding: 10px 18px; border-radius: 8px; cursor: pointer; font-size: 0.92rem; font-weight: 600; transition: all 0.2s; font-family: inherit; }
 .btn-dialog:hover:not(:disabled) { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3); }
@@ -1755,13 +1755,13 @@ body {
 .progress-bar { height: 8px; background: #e5e7eb; border-radius: 4px; overflow: hidden; margin-bottom: 6px; }
 .progress-fill { height: 100%; background: linear-gradient(135deg, #10b981 0%, #059669 100%); transition: width 0.3s ease-out; width: 0%; }
 .progress-text { color: #065f46; font-size: 0.85rem; font-weight: 600; }
-.transcript-details { margin-top: 16px; background: #f0fdf4; border-radius: 8px; padding: 10px 14px; }
+.transcript-details { margin-top: 16px; background: #FBF7EF; border-radius: 8px; padding: 10px 14px; }
 .transcript-details summary { color: #065f46; font-weight: 600; cursor: pointer; padding: 4px 0; }
 .transcript-list { margin-top: 10px; }
 .reply-item { background: white; border-left: 4px solid #d1d5db; padding: 10px 12px; border-radius: 6px; margin-bottom: 8px; transition: all 0.3s; }
-.reply-item.active { border-left-color: #10b981; background: #f0fdf4; transform: translateX(4px); }
+.reply-item.active { border-left-color: #10b981; background: #FBF7EF; transform: translateX(4px); }
 .reply-header { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
-.reply-num { color: #6b7280; font-size: 0.85rem; font-weight: 700; }
+.reply-num { color: #5A5147; font-size: 0.85rem; font-weight: 700; }
 .reply-speaker { color: #065f46; font-weight: 600; font-size: 0.88rem; flex: 1; }
 .speaker-andreea { color: #047857; }
 .speaker-annette { color: #a21caf; }
@@ -1775,7 +1775,7 @@ body {
 .btn-replay-reply { background: #ecfdf5; border: 1px solid #10b981; color: #065f46; border-radius: 6px; padding: 3px 8px; cursor: pointer; font-size: 0.8rem; }
 .btn-replay-reply:hover { background: #d1fae5; }
 .reply-de { color: #065f46; font-weight: 600; font-size: 0.92rem; line-height: 1.45; }
-.reply-ro { color: #6b7280; font-style: italic; font-size: 0.85rem; margin-top: 2px; }
+.reply-ro { color: #5A5147; font-style: italic; font-size: 0.85rem; margin-top: 2px; }
 @media (max-width: 768px) {
     .stage { grid-template-columns: 1fr; gap: 32px; }
 }
@@ -1783,3 +1783,15 @@ body {
 /* ===== Kenji — avatar emoji (student invitat Japonia) ===== */
 .kenji-avatar { background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%); font-size: 44px; }
 .speaker-kenji { color: #2563eb; }
+
+/* ===== BRAND v2 — linie aurie 80x3px sub h1 (rebrand iunie 2026) ===== */
+.header h1 { position: relative; }
+.header h1::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #D4A574;
+    margin: 14px auto 0;
+    border-radius: 2px;
+}

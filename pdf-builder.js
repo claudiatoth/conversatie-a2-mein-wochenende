@@ -21,8 +21,8 @@
         t = t.replace(/<div class="sub-section-header"[^>]*>\s*<span>([^<]+)<\/span>\s*<span class="sub-arrow">[^<]*<\/span>\s*<\/div>/g, '<h2 class="sub-chapter">$1</h2>');
         t = t.replace(/<div class="sub-section">/g, '<div>');
         t = t.replace(/<div class="sub-section-content"[^>]*>/g, '<div>');
-        t = t.replace(/<div class="theory-box"\s+style="background:\s*#fef3c7[^"]*"[^>]*>/g, '<div class="theory-box warn-box">');
-        t = t.replace(/<div class="theory-box"\s+style="background:\s*#fffbeb[^"]*"[^>]*>/g, '<div class="theory-box warn-box">');
+        t = t.replace(/<div class="theory-box"\s+style="background:\s*#F5F0E8[^"]*"[^>]*>/g, '<div class="theory-box warn-box">');
+        t = t.replace(/<div class="theory-box"\s+style="background:\s*#F5F0E8[^"]*"[^>]*>/g, '<div class="theory-box warn-box">');
         t = t.replace(/<div class="theory-box"\s+style="background:\s*#ecfdf5[^"]*"[^>]*>/g, '<div class="theory-box">');
         t = t.replace(/<div class="theory-box"\s+style="background:\s*#eef2ff[^"]*"[^>]*>/g, '<div class="theory-box info-box">');
         return `<h1 class="chapter">📘 1. Teorie — Mein Wochenende</h1>` + t;

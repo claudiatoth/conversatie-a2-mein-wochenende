@@ -137,7 +137,7 @@ function initLessonAudios() {
             tc.className = 'audio-timecode';
             tc.id = 'time-' + audio.id;
             tc.textContent = '—:—';
-            tc.style.cssText = 'font-size: 0.85rem; color: #6b7280; margin-left: 10px; font-family: \'Courier New\', monospace; font-weight: 600; white-space: nowrap;';
+            tc.style.cssText = 'font-size: 0.85rem; color: #5A5147; margin-left: 10px; font-family: \'Courier New\', monospace; font-weight: 600; white-space: nowrap;';
             player.appendChild(tc);
         }
 
