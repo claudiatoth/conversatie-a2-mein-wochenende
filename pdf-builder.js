@@ -24,7 +24,7 @@
         t = t.replace(/<div class="theory-box"\s+style="background:\s*#F5F0E8[^"]*"[^>]*>/g, '<div class="theory-box warn-box">');
         t = t.replace(/<div class="theory-box"\s+style="background:\s*#F5F0E8[^"]*"[^>]*>/g, '<div class="theory-box warn-box">');
         t = t.replace(/<div class="theory-box"\s+style="background:\s*#ecfdf5[^"]*"[^>]*>/g, '<div class="theory-box">');
-        t = t.replace(/<div class="theory-box"\s+style="background:\s*#eef2ff[^"]*"[^>]*>/g, '<div class="theory-box info-box">');
+        t = t.replace(/<div class="theory-box"\s+style="background:\s*#F5F0E8[^"]*"[^>]*>/g, '<div class="theory-box info-box">');
         return `<h1 class="chapter">📘 1. Teorie — Mein Wochenende</h1>` + t;
     }
 
