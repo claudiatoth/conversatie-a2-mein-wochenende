@@ -503,12 +503,12 @@ body {
 }
 
 .feedback.correct::before {
-    content: "✓ Richtig! ";
+    content: "\002713 Richtig! ";
     font-weight: bold;
 }
 
 .feedback.incorrect::before {
-    content: "✗ Falsch. ";
+    content: "\002717 Falsch. ";
     font-weight: bold;
 }
 
@@ -1559,7 +1559,7 @@ body {
 @page {
     size: A4;
     margin: 18mm 14mm 22mm 14mm;
-    @bottom-left { content: "ʚଓ © 2026 Claudia Toth"; font-size: 9pt; color: #065f46; }
+    @bottom-left { content: "\00029A\000B13 \0000A9 2026 Claudia Toth"; font-size: 9pt; color: #065f46; }
     @bottom-right { content: "pag. " counter(page) " / " counter(pages); font-size: 9pt; color: #5A5147; }
 }
 
@@ -1665,7 +1665,7 @@ body {
     margin-bottom: 4px;
 }
 .andreea-note-content .speaker::before {
-    content: "💚 ";
+    content: "\01F49A ";
 }
 .andreea-note-content .text {
     color: #5A5147;
